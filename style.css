@@ -1,0 +1,68 @@
+.navbar {
+ position: fixed;
+  width: 50%;
+	height: 60px;
+	background-color:#017B89;
+  padding-top: 0px;
+  }
+
+.navbar a {
+    float: left;
+padding: 15px;
+     color: white;
+     text-decoration: none;
+     font-size: 20px;
+     width: 20%;
+    text-align: center;
+  }
+
+.titlepage{
+}
+
+  h1 {
+    padding-top: 250px;
+padding-left: 80px;
+    font-size: 90px;
+margin-bottom: 0px;
+  }
+
+  h2 {
+  font-size: 120px;
+padding-left: 50px;
+padding-bottom: 150px;
+margin-top: 0px;
+  }
+
+p1 {
+color: black;
+
+}
+
+
+  h3 {
+font-size: 50px;
+text-align: center;
+margin-bottom: 0px;
+margin-top: 100px;
+  }
+
+
+  p {
+text-align: center;
+margin-top: 0px;
+  }
+
+.img1 {
+max-width: 250px;
+padding-left: 83px;
+padding-top: 100px;
+}
+
+.cameras {
+  padding-top: 250px;
+}
+
+.powerlines{
+padding-top: 250px;
+padding-bottom: 250px;
+}
