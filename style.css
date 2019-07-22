@@ -1,15 +1,23 @@
+body{
+margin: 0px;
+height: 100%;
+width: 100%;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+}
+
 .navbar {
  position: fixed;
-  width: 50%;
-	height: 60px;
-	background-color:#017B89;
+  width: 100%;
+	height: 80px;
+	background-color:#fee01a;
   padding-top: 0px;
   }
 
 .navbar a {
     float: left;
-padding: 15px;
-     color: white;
+padding: 25px;
+     color: black;
      text-decoration: none;
      font-size: 20px;
      width: 20%;
@@ -17,24 +25,63 @@ padding: 15px;
   }
 
 .titlepage{
+background-color: #00374A;
+color: white;
 }
 
+
   h1 {
-    padding-top: 250px;
-padding-left: 80px;
-    font-size: 90px;
+  padding-top: 250px;
+padding-left: 10%;
+font-size: 80px;
 margin-bottom: 0px;
   }
 
   h2 {
   font-size: 120px;
-padding-left: 50px;
-padding-bottom: 150px;
+padding-left: 10%;
+padding-bottom: 260px;
 margin-top: 0px;
   }
 
-p1 {
-color: #fee01a;
+
+.manholes{
+padding-left: 10%;
+padding-right: 10%;
+text-align: left;
+background-color:#00374A;
+color: white;
+}
+
+.manholes h1 {
+  font-size: 80px;
+  padding-top: 200px;
+  padding-left: 0px;
+  padding-bottom: 40px;
+}
+;
+.manholes p {
+text-align: left;
+}
+
+.info {
+background-color: #017b89;
+color: white;
+font-size: 12px;
+padding: 20px;
+width: 23%;
+margin-right: 10px;
+margin-top: 50px;
+margin-bottom: 250px;
+border: none;
+}
+
+#one{
+padding-top: 0px;
+padding-bottom: 0px;
+margin-top: 0px;
+margin-bottom: 100px;
+text-align: center;
 
 }
 
@@ -42,20 +89,25 @@ color: #fee01a;
   h3 {
 font-size: 50px;
 text-align: center;
-margin-bottom: 0px;
-margin-top: 100px;
+margin-top: 0px;
+margin-bottom: 100px;
+padding-top: 0px;
   }
 
 
-  p {
-text-align: center;
-margin-top: 0px;
+  .examples p {
+  padding-right: 300px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  margin-bottom: 0px;
+  text-align: right;
   }
 
 .img1 {
 max-width: 250px;
-padding-left: 83px;
-padding-top: 100px;
+padding-left: 200px;
+padding-bottom: 0px;
+
 }
 
 .cameras {
