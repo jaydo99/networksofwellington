@@ -27,14 +27,16 @@ padding: 25px;
 .titlepage{
 background-color: #00374A;
 color: white;
+margin-bottom: 0px;
+padding-bottom: 0px;
 }
 
-
   h1 {
-  padding-top: 250px;
+  padding-top: 300px;
 padding-left: 10%;
 font-size: 80px;
 margin-bottom: 0px;
+z-index: 2;
   }
 
   h2 {
@@ -44,6 +46,13 @@ padding-bottom: 260px;
 margin-top: 0px;
   }
 
+  .network{
+  width: 250px;
+  position: absolute;
+  right: 200px;
+  top: 320px;
+
+  }
 
 .manholes{
 padding-left: 10%;
